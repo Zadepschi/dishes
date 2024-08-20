@@ -95,13 +95,11 @@ h3 {
   }
 
   @media all and (max-width: 800px){
-    /* .flip-card {
-        width: 80%;
-    }
-    .flip-card-back {
-        width: 80%;
-    }  */
-
+    .dish {
+      margin: 20px;
+      padding: 20px;
+    
+  }
 
   }
 
@@ -122,4 +120,24 @@ h3 {
     li {
       font-size: 10px;
     }
+    .dish {
+      margin: 10px;
+      padding: 10px;
+    
+  }
+}
+@media all and (max-width: 390px) {
+  img{
+    width: 330px;
+    height: 180px;
+
+}
+.flip-card {
+  width: 330px;
+    height: 180px;
+}
+.flip-card-back {
+  width: 330px;
+    height: 180px;
+}
 }
